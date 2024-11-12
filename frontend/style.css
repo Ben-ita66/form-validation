@@ -1,79 +1,78 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-  }
-  h2{
-    background-color: rgb(200, 235, 252);
-    text-align: center;
-    margin-bottom: 60px;
-  }
- 
-  .container{
-        background-color: white;
-        margin: auto;
-        height: 750px;
-        width: 100%;
-        max-width: 600px;
-        padding-left: 35px;
-        border-radius: 13px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+h2 {
+  background-color: rgb(200, 235, 252);
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.container {
+  background-color: white;
+  margin: auto;
+  height: 750px;
+  width: 100%;
+  max-width: 600px;
+  padding-left: 35px;
+  border-radius: 13px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
-  }
+}
 
-  h4{
-    padding-top: 35px;
-  }
+h4 {
+  padding-top: 35px;
+}
 
-  i{
-    color: rgb(200, 235, 252);  
+i {
+  color: rgb(200, 235, 252);
+}
+.fname {
+  display: flex;
+  flex-direction: column;
+  padding-top: 35px;
+}
+.lname,
+.phone,
+.email,
+.pword,
+.pword2 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 35px;
+}
+label {
+  padding-bottom: 10px;
+  font-weight: 700;
+}
+input {
+  width: 95%;
+  height: 30px;
+  caret-color: rgb(182, 181, 181);
+  border-radius: 10px;
+  outline: none;
+  border: 2px solid;
+  border-color: rgb(182, 181, 181);
+  padding-left: 10px;
+}
+button {
+  background-color: rgb(200, 235, 252);
+  margin-top: 50px;
+  width: 30%;
+  padding: 10px;
+  border: 1px solid rgb(200, 235, 252);
+  border-radius: 10px;
+  color: rgb(29, 29, 29);
+  font-weight: 600;
+}
+button:hover {
+  background-color: rgb(165, 224, 253);
+  color: white;
+  cursor: pointer;
+}
 
-  }
-  .fname{
-    display: flex;
-        flex-direction: column;
-        padding-top: 35px;
-  }
-  .lname, .phone, .email, .pword, .pword2{
-        display: flex;
-        flex-direction: column;
-        padding-top: 35px;
-  }
-  label{
-    padding-bottom: 10px;
-    font-weight: 700;
-  }
-  input{
-    width: 95%;
-    height: 30px;
-    caret-color: rgb(182, 181, 181);
-    border-radius: 10px;
-    outline: none;
-    border: 2px solid;
-    border-color: rgb(182, 181, 181);
-    padding-left: 10px;
-
-  }
-  button{
-    background-color: rgb(200, 235, 252);
-margin-top: 50px;
-width: 30%;
-padding: 10px;
-border: 1px solid rgb(200, 235, 252);
-border-radius: 10px;
-color: rgb(29, 29, 29);
-font-weight: 600;
-  }
-  button:hover{
-    background-color: rgb(165, 224, 253);
-    color: white;
-    cursor: pointer;
-
-  }
-
-  
-
-  /* Basic styles */
+/* Basic styles */
 body {
   font-family: Arial, sans-serif;
 }
@@ -117,7 +116,6 @@ body {
   display: none;
 }
 
-
 /* Style for password input with eye icon */
 .password-container {
   position: relative;
@@ -125,11 +123,26 @@ body {
   width: 100%;
 }
 
-
 .password-container i {
   position: absolute;
   top: 50%;
   right: 42px;
   transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.btn-checkout {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: rgb(200, 235, 252);
+  color: rgb(29, 29, 29);
+
+  border: none;
+  cursor: pointer;
+}
+
+.btn-checkout:hover {
+  background-color: rgb(165, 224, 253);
+  color: white;
   cursor: pointer;
 }
