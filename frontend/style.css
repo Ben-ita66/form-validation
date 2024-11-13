@@ -425,7 +425,7 @@ body {
 }
 
 @media (min-width: 300px) and (max-width: 700px) {
-  body {
+  .around {
     width: 100vw;
     height: 100vh;
     background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
