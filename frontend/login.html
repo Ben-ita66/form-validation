@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="login.js" defer></script>
+    <title>Login</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Error Popup Message -->
+    <div id="popupMessage" class="popup hidden">
+      <span id="popupClose" class="popup-close">&times;</span>
+      <div id="popupContent"></div>
+    </div>
+
+    <form id="loginForm">
+      <div class="login-container">
+        <h3 class="log">Login</h3>
+        <div class="email">
+          <label for="loginEmail">Email Address</label>
+          <input type="email" name="email" id="loginEmail" required />
+        </div>
+
+        <div class="pword">
+          <label for="loginPassword">Password</label>
+          <div class="password-container">
+            <input type="password" name="password" id="password" />
+            <i class="far fa-eye" id="togglePassword"></i>
+          </div>
+        </div>
+        <div class="forgot"><a href="#">forgot password</a></div>
+        <button type="submit">Login</button>
+      </div>
+    </form>
+  </body>
+</html>
